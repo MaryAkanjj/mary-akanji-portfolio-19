@@ -135,8 +135,7 @@ function Hero() {
             Mary Akanji
           </h1>
           <p className="mt-6 text-lg text-pretty max-w-[42ch] text-muted-foreground">
-            Human Resources Management &amp; AI and Digital Skills —
-            recruiting, onboarding, and building people-first teams.
+            Aspiring HR Professional | Enthusiast
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a
