@@ -351,8 +351,8 @@ function Experience() {
             </h3>
             <ol className="border-l border-border ml-1">
               <TimelineItem active>
-                <p className="text-sm font-semibold">HR Assistant</p>
-                <p className="text-sm text-muted-foreground">[Company] &middot; [Dates]</p>
+                <p className="text-sm font-semibold">Tymebank Brand Ambassador</p>
+                <p className="text-sm text-muted-foreground">TYMEBANK (Edge Field Marketing) &middot; [Dates]</p>
                 <p className="mt-1 text-sm text-muted-foreground">
                   [Add a short summary of your responsibilities and impact.]
                 </p>
