@@ -40,11 +40,8 @@ const technicalSkills = [
   "Microsoft Excel",
   "Microsoft Word",
   "Microsoft PowerPoint",
+  "OneNote",
   "HRIS",
-  "Workday",
-  "Google Workspace",
-  "ATS",
-  "Notion",
 ];
 
 const softSkills = [
@@ -132,14 +129,14 @@ function Hero() {
       <div className="max-w-6xl mx-auto px-6 pt-16 md:pt-24 pb-10 flex flex-col lg:flex-row items-end justify-between gap-12">
         <Reveal className="max-w-2xl">
           <p className="font-mono text-xs tracking-[0.25em] uppercase text-primary mb-6">
-            Human Resources &amp; Talent
+            Aspiring Human Resources Management Professional N6
           </p>
           <h1 className="text-[clamp(2.75rem,7vw,5.5rem)] font-extrabold leading-[0.95] tracking-tight text-balance">
             Mary Akanji
           </h1>
           <p className="mt-6 text-lg text-pretty max-w-[42ch] text-muted-foreground">
-            Human Resources Management professional — recruiting, onboarding,
-            and building people-first teams.
+            Human Resources Management &amp; AI and Digital Skills —
+            recruiting, onboarding, and building people-first teams.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a
@@ -186,12 +183,25 @@ function About() {
       <SectionHeader number="01" title="About me" />
       <div className="grid md:grid-cols-2 gap-10 items-start">
         <Reveal>
-          <p className="text-lg text-pretty leading-relaxed max-w-[46ch]">
-            A people-focused Human Resources professional with hands-on experience
-            across recruitment, onboarding, and employee relations. I design
-            processes that are clear, fair, and easy to follow — and I care
-            about the humans on both sides of the desk.
-          </p>
+          <div className="space-y-4 text-lg text-pretty leading-relaxed max-w-[46ch]">
+            <p>
+              I am a motivated and ambitious Human Resources Management
+              professional-in-training who has completed N6, currently
+              seeking an opportunity to complete my in-service training and
+              gain practical workplace experience.
+            </p>
+            <p>
+              I am also expanding my skills through the AI Skills Acceleration
+              Programme, developing practical knowledge in Artificial
+              Intelligence, generative AI, data analysis, and digital tools.
+            </p>
+            <p>
+              <span className="font-semibold text-foreground">Career goal:</span>{" "}
+              To secure an HR in-service training opportunity where I can apply
+              my knowledge, develop practical skills, complete my qualification
+              requirements, and build a meaningful career in Human Resources.
+            </p>
+          </div>
         </Reveal>
         <Reveal delay={100}>
           <div className="rounded-2xl bg-card ring-1 ring-border p-6 shadow-xl shadow-foreground/5">
@@ -352,16 +362,11 @@ function Experience() {
             <ol className="border-l border-border ml-1">
               <TimelineItem active>
                 <p className="text-sm font-semibold">Tymebank Brand Ambassador</p>
-                <p className="text-sm text-muted-foreground">TYMEBANK (Edge Field Marketing) &middot; [Dates]</p>
-                <p className="mt-1 text-sm text-muted-foreground">
-                  [Add a short summary of your responsibilities and impact.]
+                <p className="text-sm text-muted-foreground">
+                  TYMEBANK under Edge Field Marketing &middot; 13 September 2022 – 31 January 2023
                 </p>
-              </TimelineItem>
-              <TimelineItem>
-                <p className="text-sm font-semibold">HR Intern</p>
-                <p className="text-sm text-muted-foreground">[Company] &middot; [Dates]</p>
                 <p className="mt-1 text-sm text-muted-foreground">
-                  [Add a short summary of your responsibilities and impact.]
+                  Reference: Manager Raeez Simjee &middot; 081 826 2135
                 </p>
               </TimelineItem>
             </ol>
@@ -374,18 +379,19 @@ function Experience() {
             <ol className="border-l border-border ml-1">
               <TimelineItem active>
                 <p className="text-sm font-semibold">
-                  B.Sc. Human Resources Management
+                  Human Resources Management N6
                 </p>
-                <p className="text-sm text-muted-foreground">[University] &middot; [Year]</p>
+                <p className="text-sm text-muted-foreground">
+                  Alpvest Institute for Futuretech &middot; 2025
+                </p>
                 <p className="mt-1 text-sm text-muted-foreground">
-                  [Add a short note — focus area, honours, dissertation, etc.]
+                  Completed N4 (2023), N5 (2025), and N6 (2025).
                 </p>
               </TimelineItem>
               <TimelineItem>
-                <p className="text-sm font-semibold">Certification in [Field]</p>
-                <p className="text-sm text-muted-foreground">[Issuer] &middot; [Year]</p>
-                <p className="mt-1 text-sm text-muted-foreground">
-                  [Add a short description of what the certification covers.]
+                <p className="text-sm font-semibold">Matric</p>
+                <p className="text-sm text-muted-foreground">
+                  Sekano Ntaone Secondary School &middot; 2023
                 </p>
               </TimelineItem>
             </ol>
