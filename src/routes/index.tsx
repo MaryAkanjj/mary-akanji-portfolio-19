@@ -135,7 +135,7 @@ function Hero() {
             Mary Akanji
           </h1>
           <p className="mt-6 text-lg text-pretty max-w-[42ch] text-muted-foreground">
-            Aspiring HR Professional | Enthusiast
+            Aspiring HR Professional | AI Enthusiast
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a
