@@ -81,7 +81,7 @@
   --secondary-foreground: oklch(0.251 0.02 250);
 
   --muted: oklch(0.96 0.005 95);
-  --muted-foreground: oklch(0.55 0.04 250 / 0.75);
+  --muted-foreground: oklch(0.45 0.03 250 / 0.85);
 
   --accent: oklch(0.96 0.005 95);
   --accent-foreground: oklch(0.251 0.02 250);
@@ -151,6 +151,7 @@
 
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
   }
 
   body {
